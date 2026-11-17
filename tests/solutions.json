@@ -1,0 +1,269 @@
+{
+  "note": "Winning step lists for all eight evenings, replayed by tests/solutions.test.mjs through the real engine.",
+  "levels": [
+    {
+      "id": 1,
+      "stars": 3,
+      "moves": 4,
+      "steps": [
+        {
+          "op": "sew",
+          "a": 0,
+          "b": 1
+        },
+        {
+          "op": "sew",
+          "a": 1,
+          "b": 2
+        },
+        {
+          "op": "guide"
+        },
+        {
+          "op": "guide"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "stars": 3,
+      "moves": 4,
+      "steps": [
+        {
+          "op": "sew",
+          "a": 0,
+          "b": 1
+        },
+        {
+          "op": "sew",
+          "a": 1,
+          "b": 3
+        },
+        {
+          "op": "guide"
+        },
+        {
+          "op": "guide"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "stars": 3,
+      "moves": 7,
+      "steps": [
+        {
+          "op": "sew",
+          "a": 0,
+          "b": 1
+        },
+        {
+          "op": "guide"
+        },
+        {
+          "op": "sew",
+          "a": 1,
+          "b": 2
+        },
+        {
+          "op": "guide"
+        },
+        {
+          "op": "cut",
+          "a": 0,
+          "b": 1
+        },
+        {
+          "op": "sew",
+          "a": 2,
+          "b": 3
+        },
+        {
+          "op": "guide"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "stars": 3,
+      "moves": 6,
+      "steps": [
+        {
+          "op": "sew",
+          "a": 0,
+          "b": 1
+        },
+        {
+          "op": "sew",
+          "a": 1,
+          "b": 3
+        },
+        {
+          "op": "sew",
+          "a": 3,
+          "b": 4
+        },
+        {
+          "op": "guide"
+        },
+        {
+          "op": "guide"
+        },
+        {
+          "op": "guide"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "stars": 3,
+      "moves": 4,
+      "steps": [
+        {
+          "op": "sew",
+          "a": 0,
+          "b": 1,
+          "strands": 2
+        },
+        {
+          "op": "guide"
+        },
+        {
+          "op": "sew",
+          "a": 1,
+          "b": 3,
+          "strands": 2
+        },
+        {
+          "op": "guide"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "stars": 3,
+      "moves": 6,
+      "steps": [
+        {
+          "op": "sew",
+          "a": 0,
+          "b": 1,
+          "strands": 2
+        },
+        {
+          "op": "guide"
+        },
+        {
+          "op": "sew",
+          "a": 1,
+          "b": 3,
+          "strands": 2
+        },
+        {
+          "op": "guide"
+        },
+        {
+          "op": "sew",
+          "a": 3,
+          "b": 5,
+          "strands": 2
+        },
+        {
+          "op": "guide"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "stars": 3,
+      "moves": 7,
+      "steps": [
+        {
+          "op": "sew",
+          "a": 0,
+          "b": 1,
+          "strands": 2
+        },
+        {
+          "op": "guide"
+        },
+        {
+          "op": "sew",
+          "a": 1,
+          "b": 2,
+          "strands": 2
+        },
+        {
+          "op": "guide"
+        },
+        {
+          "op": "cut",
+          "a": 0,
+          "b": 1
+        },
+        {
+          "op": "sew",
+          "a": 2,
+          "b": 3,
+          "strands": 2
+        },
+        {
+          "op": "guide"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "stars": 3,
+      "moves": 10,
+      "steps": [
+        {
+          "op": "sew",
+          "a": 0,
+          "b": 1,
+          "strands": 2
+        },
+        {
+          "op": "guide"
+        },
+        {
+          "op": "sew",
+          "a": 1,
+          "b": 2,
+          "strands": 2
+        },
+        {
+          "op": "guide"
+        },
+        {
+          "op": "cut",
+          "a": 0,
+          "b": 1
+        },
+        {
+          "op": "sew",
+          "a": 2,
+          "b": 3,
+          "strands": 2
+        },
+        {
+          "op": "guide"
+        },
+        {
+          "op": "cut",
+          "a": 1,
+          "b": 2
+        },
+        {
+          "op": "sew",
+          "a": 3,
+          "b": 4,
+          "strands": 2
+        },
+        {
+          "op": "guide"
+        }
+      ]
+    }
+  ]
+}

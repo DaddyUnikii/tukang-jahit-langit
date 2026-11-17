@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tukang Jahit Langit</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app">
+    <canvas id="board" width="1280" height="720"></canvas>
+
+    <header id="hud">
+      <span id="hud-level"></span>
+      <span id="hud-thread"></span>
+      <span id="hud-flock"></span>
+      <span id="hud-home"></span>
+      <span id="hud-moves"></span>
+      <span id="hud-stars"></span>
+    </header>
+
+    <nav id="toolbar">
+      <button type="button" data-command="sew" title="Sew (S)"><span class="name">Sew</span><span class="key">S</span></button>
+      <button type="button" data-command="guide" title="Guide (G / Space)"><span class="name">Guide</span><span class="key">G</span></button>
+      <button type="button" data-command="cut" title="Cut (C)"><span class="name">Cut</span><span class="key">C</span></button>
+      <button type="button" data-command="undo" title="Undo (U / Z)"><span class="name">Undo</span><span class="key">U</span></button>
+      <button type="button" data-command="restart" title="Restart (R)"><span class="name">Restart</span><span class="key">R</span></button>
+      <button type="button" data-command="strand" title="Strand (1 / 2)"><span class="name">Strand</span><span class="key">1/2</span></button>
+      <button type="button" data-command="help" title="Help"><span class="name">Help</span><span class="key">?</span></button>
+      <button type="button" data-command="book" title="Book (B)"><span class="name">Book</span><span class="key">B</span></button>
+      <button type="button" data-command="lang" title="Language"><span class="name">ID</span><span class="key">L</span></button>
+      <button type="button" data-command="sound" title="Sound"><span class="name">Sound</span><span class="key">M</span></button>
+    </nav>
+
+    <section id="title" class="screen">
+      <h1>Tukang Jahit Langit</h1>
+      <p id="title-tagline"></p>
+      <button type="button" id="play" data-action="play">Play</button>
+    </section>
+
+    <section id="levels" class="screen" hidden>
+      <h2 id="levels-title"></h2>
+      <div id="level-list"></div>
+      <button type="button" id="levels-back" data-action="back">Back</button>
+    </section>
+
+    <section id="ending" class="screen" hidden>
+      <h2 id="ending-title"></h2>
+      <p id="ending-total"></p>
+      <button type="button" id="ending-back" data-action="levels">Evenings</button>
+    </section>
+
+    <div id="modal" hidden>
+      <div id="modal-card">
+        <h2 id="modal-title"></h2>
+        <div id="modal-body"></div>
+        <button type="button" id="modal-close" data-command="close-modal">Close</button>
+      </div>
+    </div>
+
+    <p id="toast" aria-live="polite"></p>
+  </main>
+
+  <script src="levels.js"></script>
+  <script src="sky-core.js"></script>
+  <script src="sky-render.js"></script>
+  <script src="sky-audio.js"></script>
+  <script src="sky-progress.js"></script>
+  <script src="sky-game.js"></script>
+</body>
+</html>
