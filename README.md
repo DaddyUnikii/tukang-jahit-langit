@@ -1,8 +1,8 @@
 # Tukang Jahit Langit
 
-![best game](https://make.fun/badge/best-game-01.svg)
-![rank](https://make.fun/badge/best-game-01/DaddyUnikii/tukang-jahit-langit/rank.svg)
-![reward](https://make.fun/badge/best-game-01/DaddyUnikii/tukang-jahit-langit/reward.svg)
+[![make.fun · best-game-01](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01)
+[![rank](https://make.fun/badge/best-game-01/DaddyUnikii/tukang-jahit-langit/rank.svg)](https://make.fun/bounty/best-game-01)
+[![reward](https://make.fun/badge/best-game-01/DaddyUnikii/tukang-jahit-langit/reward.svg)](https://make.fun/bounty/best-game-01)
 
 A small, offline puzzle game about mending a torn night sky. The sky has ripped
 along the seams between eight islands; you are the tailor. Sew bridges of thread
