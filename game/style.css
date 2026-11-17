@@ -51,6 +51,12 @@ body {
 
 /* ------------------------------------------------------------ hud */
 
+/* The HUD and toolbar belong to a live evening only. */
+#app:not([data-screen="play"]) #hud,
+#app:not([data-screen="play"]) #toolbar {
+  display: none;
+}
+
 #hud {
   position: absolute;
   top: 0;

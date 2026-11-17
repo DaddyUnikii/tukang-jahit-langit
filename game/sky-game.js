@@ -363,6 +363,8 @@
 
   function show(next) {
     screen = next;
+    var shell = el('app');
+    if (shell && typeof shell.setAttribute === 'function') shell.setAttribute('data-screen', next);
     toggle('title', next === 'title');
     toggle('levels', next === 'levels');
     toggle('ending', next === 'ending');
